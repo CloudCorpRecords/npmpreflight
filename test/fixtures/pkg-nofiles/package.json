@@ -1,0 +1,1 @@
+{"description":"A package with no files field; .npmignore excludes the secret-bearing file.","engines":{"node":">=20"},"license":"MIT","main":"index.js","name":"pkg-nofiles","version":"1.0.0"}

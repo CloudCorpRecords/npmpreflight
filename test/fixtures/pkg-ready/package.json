@@ -1,0 +1,1 @@
+{"bin":{"pkg-ready":"dist/cli.js"},"description":"A complete minimal package that should pass preflight.","engines":{"node":">=20"},"files":["dist"],"license":"MIT","main":"dist/index.js","name":"pkg-ready","version":"1.0.0"}

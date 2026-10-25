@@ -1,0 +1,1 @@
+{"description":"A package whose shipped file contains synthetic secret patterns.","engines":{"node":">=20"},"files":["src"],"license":"MIT","main":"src/index.js","name":"pkg-leaky","version":"1.0.0"}

@@ -1,0 +1,3 @@
+// Synthetic fixture data only. This token shape is a fake: ghp_ followed by X characters.
+const fakeToken = "ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+export { fakeToken };

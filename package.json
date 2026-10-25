@@ -1,0 +1,41 @@
+{
+  "bin": {
+    "npmpreflight": "dist/cli.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1",
+    "zod": "^3"
+  },
+  "description": "Pre-publish npm package auditor: what npm pack would ship, total size, secret-pattern leak scan over the shipped file set, and missing or risky package.json fields, checked before you publish instead of after.",
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist",
+    "server.json"
+  ],
+  "homepage": "https://github.com/CloudCorpRecords/npmpreflight#readme",
+  "license": "MIT",
+  "mcpName": "io.github.CloudCorpRecords/npmpreflight",
+  "name": "@reneturcios/npmpreflight",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloudCorpRecords/npmpreflight.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
